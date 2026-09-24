@@ -1,0 +1,150 @@
+.hp-backToHorses {
+    font-size : 15px;
+    padding : 20px;
+}
+
+.hp-loading { color: var(--warm-gray); padding: 16px 0; font-size: 13px; }
+.hp-error   { color: #B3261E; padding: 16px 0; font-size: 13px; }
+
+.hp-back {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: transparent; border: none;
+    color: var(--gold); font-size: 12px;
+    cursor: pointer; margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hp-header-card , .hp-grid {
+    margin: 20px;
+}
+
+.hp-header-card {
+    background: white; border: 0.5px solid var(--border);
+    border-radius: 10px; overflow: hidden; margin-bottom: 16px;
+}
+
+.hp-banner { 
+    height: 72px;
+}
+
+.hp-banner-updateButton {
+    position : relative;
+    top : 10px;
+    right : -1525px;
+    border : 1px solid var(--border);
+    background: white;
+    border-radius: 5px;
+    padding : 5px 8px;
+    color : var(--gold-dark);
+    cursor : pointer;
+}
+
+.hp-header-body {
+    display: flex; align-items: flex-start;
+    gap: 20px; padding: 0 24px 20px;
+}
+.hp-avatar {
+    width: 68px; height: 68px; border-radius: 50%;
+    border: 3px solid white; margin-top: -34px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 600; flex-shrink: 0;
+}
+.hp-identity { padding-top: 10px; }
+.hp-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px; font-weight: 500; color: var(--charcoal);
+}
+.hp-meta { font-size: 12px; color: var(--warm-gray); margin-top: 3px; }
+.hp-tags { display: flex; gap: 6px; margin-top: 8px; }
+.hp-badge {
+    display: inline-block; font-size: 10px;
+    padding: 3px 10px; border-radius: 20px; font-weight: 500;
+}
+.badge-birth  { background: #F5E6D3; color: #7A4A1E; }
+.badge-growth { background: #D9EDD6; color: #2D5A27; }
+.badge-train  { background: #D6EAF0; color: #1A5A6B; }
+.badge-comp   { background: #D6D6F0; color: #2A2A8A; }
+.badge-blup   { background: #FFF3DC; color: #8A6E3E; }
+.badge-neutral{ background: #E2D8CC; color: #6B6259; }
+
+.hp-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 14px; margin-bottom: 16px;
+}
+.hp-card {
+    background: white; border: 0.5px solid var(--border);
+    border-radius: 10px; padding: 18px;
+}
+.hp-card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px; font-weight: 500;
+    color: var(--charcoal); margin-bottom: 14px;
+}
+.hp-info-row {
+    display: flex; justify-content: space-between;
+    padding: 7px 0; border-bottom: 0.5px solid var(--border);
+    font-size: 12px;
+}
+.hp-info-row:last-child { border-bottom: none; }
+.hp-info-key { color: var(--warm-gray); }
+.hp-info-val { color: var(--charcoal); font-weight: 500; }
+
+.hp-blup-bar-row {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+}
+.hp-blup-label { font-size: 12px; color: var(--warm-gray); width: 100px; flex-shrink: 0; }
+.hp-blup-track {
+    flex: 1; height: 6px; background: #E2D8CC;
+    border-radius: 3px; overflow: hidden;
+}
+.hp-blup-fill  { height: 100%; background: var(--gold); border-radius: 3px; }
+.hp-blup-val   { font-size: 12px; font-weight: 500; color: var(--charcoal); min-width: 30px; text-align: right; }
+.hp-blup-total {
+    display: flex; justify-content: space-between;
+    padding-top: 14px; border-top: 0.5px solid var(--border);
+}
+.hp-blup-total-label { font-size: 13px; font-weight: 500; color: var(--charcoal); }
+.hp-blup-total-val {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px; font-weight: 600; color: var(--gold);
+}
+
+.hp-blup-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    gap: 12px;
+}
+
+.hp-blup-score {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--charcoal);
+}
+
+.hp-blup-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 0.5px solid var(--border);
+    background: white;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--charcoal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp-blup-btn:hover { background: var(--cream); }
+
+.hp-blup-btn-plus {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: white;
+}
+
+.hp-blup-btn-plus:hover { background: var(--gold-dark); }

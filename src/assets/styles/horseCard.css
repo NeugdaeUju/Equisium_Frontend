@@ -1,0 +1,107 @@
+.horseCard {
+    border-radius: 10px;
+    border : 1px solid var(--border);
+    background-color: white;
+}
+
+.horseCard-heading {
+    height : 64px;
+    display : flex;
+    align-items: flex-end;
+    padding : 0px 16px 0;
+    position : relative;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+}
+
+.horseCard-heading-name {
+    width : 44px;
+    height : 44px;
+    border-radius : 50%;
+    border : 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormont Garamond', serif;
+    font-size : 15px;
+    font-weight : 600;
+    position : absolute;
+    bottom : -22px;
+    left : 16px;
+}
+
+.horseCard-heading-step {
+    margin-left : auto;
+    margin-bottom : 8px;
+}
+
+.horseCard-content {
+    padding : 32px 16px 16px;
+}
+
+.horseCard-content-name {
+    font-size : 16px;
+    font-weight : 500;
+    color: var(--charcoal);
+}
+
+.horseCard-content-info {
+    font-size : 11px; 
+    color : var(--warm-gray);
+    margin-top : 2px;
+}
+
+.horseCard-content-blup {
+    margin-top : 12px;
+}
+
+.horseCard-content-blup-info {
+    display : flex;
+    justify-content: space-between;
+    font-size : 10px;
+    color : var(--warm-gray);
+    margin-bottom : 4px;
+}
+
+.horseCard-content-blup-bar {
+    height : 5px;
+    background: #E2D8CC;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.horseCard-content-blup-bar-full {
+    height : 100%;
+    background-color: var(--gold);
+    border-radius: 3px;
+}
+
+.horseCard-footer {
+    padding : 12px 16px;
+    border-top : 0.5px solid var(--border);
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horseCard-footer-race {
+    font-size : 11px;
+    color : var(--warm-gray);
+}
+
+.horseCard-footer-button {
+    font-size : 11px;
+    color : var(--gold);
+    background-color: transparent;
+    border: 0.5px solid var(--gold);
+    border-radius: 6px;
+    padding : 4px 10px;
+    cursor : pointer;
+    font-family : 'Poppins', sans-serif;
+}
+
+.horseCard-footer-button:hover {
+    background: var(--gold);
+    color : var(--border);
+    border-color: var(--border);
+}

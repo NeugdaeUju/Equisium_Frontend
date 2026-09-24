@@ -1,0 +1,24 @@
+.card {
+    background : #fff;
+    border-radius : 10px;
+    border : 1px solid var(--border);
+    padding : 16px 22px;
+    width : 24%;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size : 1rem;
+    margin-bottom : 12px;
+}
+
+.card-number {
+    font-family : 'Cormorant Garamond', serif;
+    font-size : 2.5rem;
+    font-weight : 600;
+}
+
+.card-description {
+    font-size : 0.7rem;
+    color : var(--warm-gray)
+}

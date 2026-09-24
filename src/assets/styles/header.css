@@ -1,0 +1,46 @@
+.header {
+    padding : 0 25px 16px 25px;
+    display : flex;
+    justify-content : space-between;
+    width : 100%;
+    border-bottom : 1px solid rgba(184, 151, 90, 0.25);
+}
+
+.header h1 {
+    font-weight : 500;
+}
+
+.research {
+    width : 107px;
+    height : 32px;
+    padding : 7px 12px;
+    border : 0.5px solid var(--gold-light);
+    border-radius : 5px;
+    margin-right : 19px;
+}
+
+.research:focus {
+    border : 0.5px solid var(--gold-dark);
+}
+
+.research::placeholder {
+   color : var(--charcoal);
+   font-weight : 500;
+   font-size : 12px;
+}
+
+.add-horse {
+    width : 115px;
+    height : 32px;
+    padding : 7px 12px;
+    color : var(--cream);
+    background-color : var(--gold);
+    border-radius : 5px;
+    margin-right : 19px;
+    font-size : 12px;
+    border: none;
+}
+
+.add-horse:hover {
+    cursor : pointer;
+}

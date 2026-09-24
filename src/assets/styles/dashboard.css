@@ -5,7 +5,175 @@
 }
 
 .dashboard-content {
-  margin-left: 225px;
-  padding: 32px;
+  padding-left: 225px;
+  padding-top: 32px;
   width: 100%;
+}
+
+.horses-table-step-birth,
+.horses-table-step-growth,
+.horses-table-step-training,
+.horses-table-step-competition,
+.horses-table-step-blup {
+  padding : 5px 10px;
+  border-radius : 999px;
+  text-align : center;
+  font-size : 0.75rem;
+  white-space : nowrap;
+}
+
+.horses-table-step-birth {
+  color : rgba(92,67, 30, 0.85);
+  background-color : rgba(226, 200, 165, 0.5);
+}
+
+.horses-table-step-growth {
+  color : rgba(50, 80, 30, 0.85);
+  background-color : rgba(165, 210, 165, 0.5);
+}
+
+.horses-table-step-training {
+  color : rgba(67, 90 , 92, 0.75);
+  background-color : rgba(165, 222, 226, 0.75);
+}
+
+.horses-table-step-competition {
+  color : rgba(50, 50, 120, 0.85);
+  background-color : rgba(165, 165, 226, 0.5);
+}
+
+.horses-table-step-blup {
+  color : rgba(80, 60, 10, 0.9);
+  background-color : rgba(212, 184, 122, 0.45);
+}
+
+
+.cards-container {
+  padding : 33px 22px;
+  display : flex;
+  justify-content : space-between;
+  width : 100%;
+}
+
+.horses-table {
+  width : 100%;
+  padding : 0 22px;
+}
+
+.horses-table h2 {
+ margin-bottom : 38px;
+ font-weight : 500;
+}
+
+.horses-table-content{
+  border : 1px solid var(--border);
+  border-radius : 10px;
+  width : 100%;
+  background: #fff;
+  text-align : left;
+  border-spacing : 0;
+}
+
+th, td {
+  border : none;
+}
+
+.col-name {
+  Width : 40%;
+}
+
+.col-race {
+  width : 10%;
+}
+
+.col-step {
+  width : 15%;
+}
+
+.col-blup {
+  width : 10%;
+}
+
+.col-action {
+  width : 20%;
+}
+
+
+.horses-table-header th {
+  padding : 11px 20px;
+  color : var(--gold-dark);
+  text-transform : uppercase;
+  font-size : 10px;
+  font-weight : 400;
+  font-family : 'Poppins', sans-serif;
+  border : none;
+  background-color : var(--cream);
+}
+
+.horses-table-horse {
+  padding : 11px 20px;
+}
+
+
+.horses-table-horse-name {
+  display : flex;
+  align-items : center;
+  gap : 20px;
+
+}
+
+
+.horses-table-horse-image {
+  border-radius : 999px;
+  padding : 7px 8px;
+  text-align : center;
+}
+
+.horses-table-horse-info p:last-child {
+  font-size : 0.7rem;
+  font-weight : 300;
+}
+
+.horses-table-blup {
+  display : flex;
+  align-items : center;
+  gap : 25px;
+  width : 225px
+}
+
+.horses-table-blup-bar {
+  height : 6px;
+  width : 200px;
+  position : relative;
+}
+
+.horses-table-blup-empty {
+  height : 6px;
+  background-color : rgba(184, 151, 90, 0.25);
+  border-radius : 999px;
+  width : 200px;
+  position : absolute;
+}
+
+.horses-table-blup-fill {
+  height : 6px;
+  background-color : var(--gold-dark);
+  border-radius : 999px;
+  width : 180px;
+  position : absolute;
+}
+
+
+.horses-table-action button {
+  border :  1px solid var(--gold-light);
+  border-radius : 10px;
+  text-align : center;
+  padding : 8px 20px;
+  background-color : #fff;
+  color : #000;
+  font-weight : 600;
+}
+
+.horses-table-action button:hover {
+  cursor : pointer;
 }

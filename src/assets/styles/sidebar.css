@@ -8,6 +8,30 @@ header {
     top :0;
     left : 0;
     color : var(--gold);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-footer {
+    margin-top: auto;
+    padding: 20px 16px;
+    border-top: 0.5px solid rgba(184, 151, 90, 0.2);
+}
+
+.logout-button {
+    width: 100%;
+    background: transparent;
+    border: 0.5px solid var(--gold-dark);
+    border-radius: 8px;
+    padding: 9px;
+    color: var(--gold);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background: rgba(184, 151, 90, 0.12);
 }
 
 .header-block {
@@ -55,6 +79,10 @@ nav {
 .navigation-block-link {
     padding : 10px 16px;
     color : var(--cream);
+    display : flex;
+    text-decoration : none;
+    align-items : center;
+    justify-content : space-between;
 }
 
 .active {
@@ -74,4 +102,8 @@ nav {
     border-radius: 999px;
     background : rgba(212, 184, 122, 0.12);
     color : var(--gold)
+}
+
+li{
+    cursor : pointer;
 }
