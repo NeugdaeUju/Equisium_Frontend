@@ -1,5 +1,5 @@
-import apiClient from './Apiclient.ts';
-import type { LoginPayload, LoginResponse, SignupPayload, SignupResponse } from '../types/Auth.ts';
+import apiClient from './apiClient.ts';
+import type { LoginPayload, LoginResponse, SignupPayload, SignupResponse } from '../types/auth.ts';
 
 export const signupRequest = async (payload: SignupPayload): Promise<SignupResponse> => {
   const response = await apiClient.post<SignupResponse>('/auth/signup', payload);
