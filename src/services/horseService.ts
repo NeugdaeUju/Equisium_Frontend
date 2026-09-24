@@ -1,4 +1,4 @@
-import apiClient from './Apiclient';
+import apiClient from './apiClient';
 import type { HorsesResponse, IHorse, CreateHorsePayload } from '../types/horse';
 
 export const fetchHorses = async (): Promise<HorsesResponse> => {

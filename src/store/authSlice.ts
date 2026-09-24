@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import type { AuthState } from '../types/Auth.ts';
+import type { AuthState } from '../types/auth.ts';
 
 const TOKEN_KEY = 'equisium_token';
 const USER_ID_KEY = 'equisium_user_id';
