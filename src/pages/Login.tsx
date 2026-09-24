@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { loginRequest } from '../services/authService.ts';
 import { useAppDispatch } from '../store/hooks.ts';
-import { loginSuccess } from '../store/Authslice.ts';
+import { loginSuccess } from '../store/authSlice.ts';
 import '../assets/styles/login.css';
 
 function Login() {
