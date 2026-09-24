@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { loadHorses } from '../store/horsesSlice';
 import Sidebar from '../components/Sidebar';
@@ -83,6 +84,8 @@ function Dashboard() {
       updated.getMonth()    === now.getMonth()
     );
   }).length;
+
+  const navigate = useNavigate();
 
   return (
     <div className="dashboard-layout">
@@ -186,7 +189,7 @@ function Dashboard() {
 
                         {/* Action */}
                         <td className='horses-table-action'>
-                          <button type="button">Voir la fiche</button>
+                          <button type="button" onClick={() => navigate(`/horses/${horse._id}`)}>Voir la fiche</button>
                         </td>
 
                       </tr>

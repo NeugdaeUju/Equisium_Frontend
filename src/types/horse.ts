@@ -17,6 +17,7 @@ export interface IHorse {
   owner: string;
   createdAt: string;
   updatedAt: string;
+  age: string;
 }
 
 export interface HorsesResponse {
@@ -30,4 +31,5 @@ export interface CreateHorsePayload {
   raceId: string;
   step?: HorseStep;
   blup?: number;
+  age? : string;
 }
